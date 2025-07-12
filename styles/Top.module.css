@@ -1,0 +1,19 @@
+.breadcrumbContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+    position: relative; 
+    right: -190px; 
+    font-size: small;
+}
+
+.breadcrumb {
+    margin-right: 5px;
+    color: black;
+}
+
+.greenText {
+    color: green;
+}
+

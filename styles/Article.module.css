@@ -1,0 +1,125 @@
+/* General Styles */
+.outerContainer {
+  padding: 0 20px;
+  font-family: 'Lucida Handwriting', cursive;
+  background-color: transparent; /* Transparent background */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(215, 232, 211, 0.8); /* Light green with transparency */
+  padding: 30px;
+  border-radius: 21px;
+  font-weight: bold;
+  margin-bottom: 20px; /* Space between header and table */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-top: 10px; /* Space between rows */
+}
+
+.headerItem, .tableCell {
+  font-size: 13px;
+  color: black;
+}
+
+.tableCell {
+  display: flex;
+  align-items: center;
+  right: -600px;
+}
+
+.tableCell img {
+  margin-left: 10px; /* Move images slightly to the right */
+}
+
+.tableCell select {
+  font-size: inherit;
+  color: inherit;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+.infoText {
+  font-size: 10px;
+  color: #666;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+.continueButton {
+  padding: 10px ;
+  border: 1px solid green;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-family: 'Lucida Handwriting', cursive;
+  
+}
+ .checkoutButton {
+  padding: 10px ;
+  left: -50px;
+  border: 1px solid green;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  font-family: 'Lucida Handwriting', cursive;
+}
+.continueButton:hover, .checkoutButton:hover {
+  background-color: #d7e8d3;
+  color: white;
+}
+
+.totalContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  font-size: small;
+  text-align: right;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .header, .tableRow {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #99ab75; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 15px; /* Rounded corners */
+    margin: 20px auto; /* Center horizontally with margin */
+    width: fit-content;
+    font-family: 'Lucida Handwriting', cursive;
+}
+.header a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Ensure link color matches header text color if needed */
+}
+.Choix {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; /* Reduced gap */
+    justify-content: center; /* Center the grid */
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.imageContainer {
+    position: relative;
+    width: 200px; /* Set a fixed width */
+    height: 220px; /* Set a fixed height */
+    margin: 5px; /* Add margin between images */
+}
+
+.discountTag {
+    position: absolute;
+    top: 8px;
+    left: 8px; /* Move the tag to the right corner */
+    background-color: green; /* Green background */
+    color: white; /* White text */
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: bold;
+}

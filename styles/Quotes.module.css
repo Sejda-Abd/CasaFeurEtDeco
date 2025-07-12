@@ -1,0 +1,70 @@
+
+.QuotesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    
+    padding: 10px;
+    position: relative;
+  }
+  
+  .image {
+    width: 463px;
+    height: 570px;
+    border: 1px solid #ddd;
+    margin: 10px;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid green;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .imageSmall {
+    width: 50%;
+    height: auto;
+  }
+  
+  .imageSmall + .imageSmall {
+    margin-left: 50px; /* Add space between the images */
+  }
+  
+  .textRight {
+    flex: 1;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .textLeft {
+    flex: 1;
+    padding-right: 20px;
+    text-align: right;
+    font-family: 'Lucida Handwriting', cursive;
+  }
+  
+  .quote {
+    font-size: 1.2em;
+    color: #666;
+    font-family: 'Lucida Handwriting', cursive;
+  }
+  
+  .author {
+    font-style: italic;
+    color: green;
+  }
+  
+  .caption {
+    font-size: 1em;
+    color: #888;
+  }
+  

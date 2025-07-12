@@ -1,0 +1,74 @@
+/* Choi.module.css */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #99ab75; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 15px; /* Rounded corners */
+    margin: 20px auto; /* Center horizontally with margin */
+    width: fit-content;
+    font-family: 'Lucida Handwriting', cursive; 
+}
+
+.Choix {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px; /* Reduce the gap */
+    padding: 0;
+    justify-content: center; /* Center the grid */
+}
+
+.imageContainer {
+    position: relative;
+    width: 200px; /* Set a fixed width */
+    height: 300px; /* Increase height to accommodate text */
+    text-align: center; /* Center text under images */
+}
+
+.discountTag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: green; /* Green background */
+    color: white; /* White text */
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.breadcrumbContainer {
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: small;
+    margin-left: -1000px;
+}
+
+.breadcrumb {
+    color: grey;
+    margin: 0; /* Remove margin to ensure they are on the same line */
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.bouquetName {
+    color: green; /* Green text */
+    margin: 5px 0 0 0; /* Margin adjustments */
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: medium;
+}
+
+.bouquetPrice {
+    color: black; /* Black text */
+    margin: 0; /* Margin adjustments */
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: small;
+}

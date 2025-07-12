@@ -1,0 +1,34 @@
+/* Choi.module.css */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Choix {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px 4px; /* Reduce row gap by setting a smaller value */
+    padding: 0;
+    justify-content: center; 
+}
+
+.imageContainer {
+    position: relative;
+    width: 200px; 
+    height: 100px; /* Increase height to accommodate text */
+    text-align: center; /* Center text under images */
+}
+
+.discountTag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: green; 
+    color: white; /* White text */
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}

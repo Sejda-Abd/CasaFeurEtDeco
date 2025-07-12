@@ -1,0 +1,20 @@
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh; /* or any desired height */
+  background-color: white; /* optional background color */
+}
+
+.imageContainer {
+  position: relative;
+  width: 90%; /* or any desired width to make the image larger */
+  height: 90%; /* or any desired height to make the image larger */
+  max-width: 1190px; /* adjust the max-width as needed */
+  max-height: 712px; /* adjust the max-height as needed */
+}
+
+.image {
+  object-fit: contain;
+}

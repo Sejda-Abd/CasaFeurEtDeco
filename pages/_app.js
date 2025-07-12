@@ -1,8 +1,10 @@
-import "../styles/globals.css";
+import { AuthProvider } from './components/AuthContext'; // Adjust the path as needed
 
 function MyApp({ Component, pageProps }) {
   return (
-     <Component {...pageProps} />
+    <AuthProvider>
+      <Component {...pageProps} />
+    </AuthProvider>
   );
 }
 

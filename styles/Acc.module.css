@@ -1,0 +1,19 @@
+.breadcrumbContainer {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif; /* Optional: Match font style */
+    font-size: small;
+    margin-left: 100px;
+  }
+  
+  .breadcrumb {
+    color: black;
+    margin: 0; /* Remove margin to ensure they are on the same line */
+    font-family: 'Lucida Handwriting', cursive;
+  }
+  
+  .ws {
+    color: green;
+    margin: 0; /* Remove margin to ensure they are on the same line */
+    font-family: 'Lucida Handwriting', cursive;
+  }

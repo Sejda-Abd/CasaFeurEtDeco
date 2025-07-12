@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Adelia';
+  src: url('/fonts/Adelia.ttf') format('truetype');
+}
+
+.PartieContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  background-color: #e2f3d3; /* Adjust as necessary */
+  text-align: center;
+}
+
+.heading {
+  font-size: 18px; /* Adjust font size as necessary */
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Adelia', sans-serif; /* Custom font for the heading */
+  color: #6b8e23;
+}
+
+.subheading {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Lucida Handwriting', cursive; /* Custom font for the paragraph */
+  color: #888888;
+  height: 102px;
+  width: 946px;
+}

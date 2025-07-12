@@ -1,0 +1,39 @@
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photoContainer {
+    text-align: center;
+}
+
+.photo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    margin-top: 10px;
+    font-family: 'Lucida Handwriting', cursive;
+    color: grey;
+}
+
+.caption h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.caption p {
+    margin: 0;
+    font-size: 14px;
+}

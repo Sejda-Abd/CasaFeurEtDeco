@@ -1,0 +1,40 @@
+.Voirplus {
+    text-align: center;
+    background-color: #e5f3da ;
+    padding: 60px;
+    font-family: 'Lucida Handwriting', cursive;
+  }
+  
+  .Voirplus h2 {
+    font-size: 2em;
+    color: #4caf50;
+    font-family: 'Brush Script MT', cursive;
+  }
+  
+  .Voirplus p {
+    font-size: 1.2em;
+    color: #777;
+    width: 80%; /* Adjusted width to a percentage */
+    margin: 0 auto; /* Centers the paragraph */
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Voirplus button {
+    background-color: #c9e3b3;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #4caf50;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Lucida Handwriting', cursive;
+  }
+  
+  .Voirplus button:hover {
+    background-color: #c0d5c0;
+  }
+  

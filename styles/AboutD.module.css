@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lucida+Handwriting&display=swap');
+
+/* Assuming you have Adelia font files in your project */
+@font-face {
+  font-family: 'Adelia';
+  src: url('/path/to/Adelia.woff2') format('woff2'), 
+       url('/path/to/Adelia.woff') format('woff');
+}
+
+.PartieContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: -20px;
+  background-color: #f5f5eb;
+  text-align: center;
+}
+
+
+.subheading {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Lucida Handwriting', cursive; 
+  color:#1e973d;
+  height: 102px;
+  width: 946px;
+}

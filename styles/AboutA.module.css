@@ -1,0 +1,62 @@
+/* components/AboutA.module.css */
+.AboutA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.8);
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.textContent {
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+
+
+.h1 {
+    font-size: 36px;
+    color: #6d9a3d;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #999;
+}
+
+.imageContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContent img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.h1{
+    font-family: 'Lucida Handwriting', cursive;
+}
+.breadcrumbContainer {
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif; /* Optional: Match font style */
+  }
+  
+  .breadcrumb {
+    color: black;
+    margin: 0; /* Remove margin to ensure they are on the same line */
+    font-family: 'Lucida Handwriting', cursive;
+  }
+  
+  .ws {
+    color: green;
+    margin: 0; /* Remove margin to ensure they are on the same line */
+    font-family: 'Lucida Handwriting', cursive;
+  }
+  

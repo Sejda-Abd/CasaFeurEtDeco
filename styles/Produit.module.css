@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lucida+Handwriting&display=swap');
+
+.produitContainer { 
+  padding: 20px; 
+  background-color: white;
+} 
+
+.title { 
+  text-align: center; 
+  font-size: 36px; 
+  color: #556b2f; 
+  margin-bottom: 20px; 
+} 
+
+.filterButton {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Center text */
+}
+
+.filterButton li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.filterButton li a {
+  background-color: #8FBC8F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* Remove default underline */
+  display: inline-block; /* Ensure inline block display */
+}
+
+.filterButton li a:hover {
+  background-color: #6B8E23;
+}
+
+
+.products { 
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: nowrap; /* Ensures the items don't wrap to the next line */
+} 
+
+.productContainer {
+  margin: 10px; /* Adjust spacing between products */
+}
+
+.productImage {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bannerImageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: lighter;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+
+
+
+
+
+.bannerAndAbout {
+  display: flex;
+  align-items: center;
+}
+
+.bannerContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.about {
+  flex: 1;
+}
+
+.flo {
+  width: 150px;
+  height: auto;
+}
+
+.aboutTitle { 
+  font-size: 24px; 
+  color: #556b2f; 
+  margin-bottom: 20px; 
+  text-align: center;
+  font-family: 'Pacifico', cursive; 
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: lighter;
+}
+
+
+
+.aboutText { 
+  font-size: 10px; 
+  color: #555; 
+  max-width: 900px; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.pik, .pk {
+  text-align: center;
+}

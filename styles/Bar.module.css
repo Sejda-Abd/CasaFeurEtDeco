@@ -1,0 +1,16 @@
+.breadcrumbContainer {
+    align-self: flex-start; 
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: small;
+    margin-left: 150px; 
+}
+
+.breadcrumb {
+    color: grey;
+    margin: 0; 
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.currentBreadcrumb {
+    color: green;
+}

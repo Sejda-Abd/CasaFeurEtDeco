@@ -1,0 +1,20 @@
+.servicesContainer {
+  display: flex;
+  justify-content: center; /* Center the items */
+  align-items: center;
+  padding: 20px 0;
+  gap: 30px; /* Reduce the gap between the service items */
+}
+
+.serviceItem {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #4A4A4A;
+  margin: 0; /* Remove margin */
+}
+
+.serviceItem p {
+  margin-top: 5px; /* Adjust this value to make the space smaller */
+  font-size: 14px;
+}
+

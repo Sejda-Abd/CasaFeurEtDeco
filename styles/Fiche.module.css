@@ -1,0 +1,124 @@
+.fiche {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Ensure the section takes the full height of the viewport */
+}
+
+.mainContent {
+    display: flex;
+    gap: 20px;
+    
+    padding: 50px;
+   
+    width: 80%; /* Increase the width to make it larger */
+    max-width: 1200px; /* Set a maximum width to prevent it from becoming too large on very wide screens */
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.discountTag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.mainImage {
+    width: 500px; /* Increase the width of the main image */
+    height: auto;
+}
+
+.thumbnailContainer {
+    display: flex;
+    justify-content: center; /* Center the thumbnails */
+    gap: 10px;
+    margin-top: 120px;
+}
+
+.thumbnailImage {
+    width: 60px;
+    height: 50px;
+    cursor: pointer; /* Change the cursor to indicate the image is clickable */
+}
+
+
+.detailsContainer {
+    max-width: 600px; /* Increase the max-width to accommodate more content */
+}
+
+.title {
+    font-size: 24px;
+    color: green;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
+
+.price {
+    font-size: 20px;
+    color: green;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
+
+.stockStatus {
+    font-size: 14px;
+    color: grey;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
+
+.description, .composition {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
+
+.subtitle {
+    font-size: 18px;
+    color: green;
+    margin-bottom: 5px;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
+
+.sizeOptions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
+
+.sizeOption {
+    background-color: #c9e3b3 ;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
+
+.addToCartButton {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Lucida Handwriting', cursive;
+
+}
